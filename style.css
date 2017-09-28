@@ -1,0 +1,62 @@
+
+html {
+  background: url("http://cache.boston.com/universal/site_graphics/blogs/bigpicture/tdf_07_14/tdf16.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+g {
+  font-size: 1em;
+}
+
+svg{
+  background-color: rgba(250,250,250,0.9);
+  margin: 20px 10px 10px 160px;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+
+.athlete {
+  font-size: .8em;
+}
+
+.xAx {
+  fill: black;
+  font-size: 1.3em;
+  font-family: 'Fjalla One';
+}
+
+.yAx {
+  fill: black;
+  font-size: 1.5em;
+  font-family: 'Fjalla One';
+}
+
+.title {
+  fill: black;
+  font-size: 2em;
+  font-family: 'Fjalla One';
+}
+
+#tooltip {
+  position: absolute;
+  width: 150px;
+  padding: 10px;
+  background-color: rgba(247,245,99,.98);
+  box-shadow: 0px 10px 20px rgba(10, 2, 2, 2);
+  border-radius: 10px;
+  border-width: thick;
+  pointer-events: none;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+#tooltip p {
+  margin: 0;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+}
